@@ -14,7 +14,7 @@ import {
 import { useTheme } from "@material-ui/styles";
 import { withRouter } from "react-router-dom";
 import classNames from "classnames";
-
+import FindInPageIcon from '@material-ui/icons/FindInPage';
 // styles
 import useStyles from "./styles";
 
@@ -31,6 +31,12 @@ import {
 
 const structure = [
   { id: 0, label: "Dashboard", link: "/app/dashboard", icon: <HomeIcon /> },
+  {
+    id: 15,
+    label: "Search",
+    link: "/app/document",
+    icon: <FindInPageIcon />,
+  },
   {
     id: 1,
     label: "Typography",

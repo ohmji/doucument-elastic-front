@@ -115,6 +115,10 @@ export default makeStyles(theme => ({
     fontSize: "18px !important",
     marginLeft: theme.spacing(1),
   },
+  info: {
+    backgroundColor: theme.palette.info.main,
+    color: '#fff',
+  },
   success: {
     backgroundColor: theme.palette.success.main,
     color: '#fff',
@@ -126,5 +130,23 @@ export default makeStyles(theme => ({
   secondary: {
     backgroundColor: theme.palette.secondary.main,
     color: '#fff',
-  }
+  },
+  input: {
+    marginLeft: theme.spacing(1),
+    flex: 1,
+  },
+  iconButton: {
+    padding: 10,
+  },
+  divider: {
+    height: 28,
+    margin: 4,
+  },
+  root: {
+    padding: '2px 4px',
+    display: 'flex',
+    alignItems: 'center',
+    height:72
+    // width: 800,
+  },
 }));
